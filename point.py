@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'point.ui'
 #
-# Created: Sun Mar  4 15:27:25 2012
+# Created: Mon Mar  5 13:15:02 2012
 #      by: PyQt4 UI code generator 4.8.5
 #
 # WARNING! All changes made in this file will be lost!
@@ -34,9 +34,9 @@ class Ui_MainWindow(object):
         self.label_3.setText(QtGui.QApplication.translate("MainWindow", "Point:", None, QtGui.QApplication.UnicodeUTF8))
         self.label_3.setObjectName(_fromUtf8("label_3"))
         self.horizontalLayout_3.addWidget(self.label_3)
-        self.pointscombo = QtGui.QComboBox(self.centralwidget)
-        self.pointscombo.setObjectName(_fromUtf8("pointscombo"))
-        self.horizontalLayout_3.addWidget(self.pointscombo)
+        self.pointsCombo = QtGui.QSpinBox(self.centralwidget)
+        self.pointsCombo.setObjectName(_fromUtf8("pointsCombo"))
+        self.horizontalLayout_3.addWidget(self.pointsCombo)
         self.verticalLayout.addLayout(self.horizontalLayout_3)
         self.horizontalLayout = QtGui.QHBoxLayout()
         self.horizontalLayout.setObjectName(_fromUtf8("horizontalLayout"))
@@ -76,7 +76,7 @@ class Ui_MainWindow(object):
         self.verticalLayout.addLayout(self.horizontalLayout_2)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1110, 24))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1110, 25))
         self.menubar.setObjectName(_fromUtf8("menubar"))
         self.menuSAFL_Point = QtGui.QMenu(self.menubar)
         self.menuSAFL_Point.setTitle(QtGui.QApplication.translate("MainWindow", "SAFL Point", None, QtGui.QApplication.UnicodeUTF8))
